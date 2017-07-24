@@ -1,3 +1,19 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container root">
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+      <h1>
+       {{title}}
+      </h1>
+      <button (click)="funct1()" class="btn btn-success btn-lg">A ++</button>
+      <button (click)="funct2()" class="btn btn-success btn-lg">B ++</button>
+      <button (click)="funct3()" class="btn btn-success btn-lg">C ++</button>
+      <button (click)="funct4()" class="btn btn-success btn-lg">D ++</button>
+      <p *ngFor="let item of details"><strong>name:</strong> {{item.name}}, <strong>value:</strong> {{item.value}}</p>
+    </div>
+    <div class="row child">
+      <div class="col-md-6 col-md-6">
+        <app-child [data]="details">loading child component</app-child>
+      </div>
+    </div>
+  </div>
+</div>
