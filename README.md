@@ -1,3 +1,7 @@
+# Demo
+
+View gh-pages [demo](https://shanegibney.github.io/Angular-and-Dynamic-D3js-Graph/)
+
 # AngularAndDynamicD3jsGraph
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
