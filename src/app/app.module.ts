@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ChildComponent } from './child/child.component';
+import { D3Service } from 'd3-ng2-service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { ChildComponent } from './child/child.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [D3Service],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

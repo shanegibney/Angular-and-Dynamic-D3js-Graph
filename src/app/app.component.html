@@ -10,8 +10,8 @@
       <button (click)="funct4()" class="btn btn-success btn-lg">D ++</button>
       <p *ngFor="let item of details"><strong>name:</strong> {{item.name}}, <strong>value:</strong> {{item.value}}</p>
     </div>
-    <div class="row child">
-      <div class="col-md-6 col-md-6">
+    <div class="row">
+      <div class="col-md-6 col-md-6 child">
         <app-child [data]="details">loading child component</app-child>
       </div>
     </div>
