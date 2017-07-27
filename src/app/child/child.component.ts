@@ -83,7 +83,7 @@ export class ChildComponent implements OnInit, OnChanges {
           .attr('width', width) // set its dimensions
           .attr('height', height);
 
-      colors = ['red', 'yellow', 'green', 'blue'];
+      colors = ['#C9302C', '#F0AD4E', '#5CB85C', '#337AB7'];
 
       xScale = d3.scaleBand()
           .domain(this.data.map(function(d){ return d.name; }))
