@@ -2,6 +2,8 @@
 
 View gh-pages [demo](https://shanegibney.github.io/Angular-and-Dynamic-D3js-Graph/)
 
+<img width="342" alt="screen shot 2017-08-14 at 22 13 06" src="https://user-images.githubusercontent.com/17167992/29292122-dd1dba70-813d-11e7-8b24-4c2ec5bf8b02.png">
+
 # AngularAndDynamicD3jsGraph
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
